@@ -1,0 +1,140 @@
+fileFormatVersion: 2
+guid: 5970613c657964221a79c61cb75e9112
+timeCreated: 1525058075
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Armature
+    100002: back
+    100004: //RootNode
+    100006: BLfoot
+    100008: BLleg
+    100010: Bone_001
+    100012: BRfoot
+    100014: BRleg
+    100016: chest
+    100018: Cube
+    100020: FLleg
+    100022: FLleg_001
+    100024: FRleg
+    100026: FRleg_001
+    100028: Lear
+    100030: Rear
+    100032: snout
+    100034: tail
+    100036: tailend
+    100038: teet1
+    100040: teet2
+    100042: teet3
+    100044: teet4
+    400000: Armature
+    400002: back
+    400004: //RootNode
+    400006: BLfoot
+    400008: BLleg
+    400010: Bone_001
+    400012: BRfoot
+    400014: BRleg
+    400016: chest
+    400018: Cube
+    400020: FLleg
+    400022: FLleg_001
+    400024: FRleg
+    400026: FRleg_001
+    400028: Lear
+    400030: Rear
+    400032: snout
+    400034: tail
+    400036: tailend
+    400038: teet1
+    400040: teet2
+    400042: teet3
+    400044: teet4
+    4300000: Cube
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: Cube
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bessieSkin
+    second: {fileID: 2100000, guid: 02de1a516df9c441580df5445b15933a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 0
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

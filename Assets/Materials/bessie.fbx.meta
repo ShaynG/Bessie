@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: b710991857b414dc6a8dda0835ab50fc
+timeCreated: 1525988187
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: back
+    100002: //RootNode
+    100004: BLfoot
+    100006: BLfoot_end
+    100008: BLleg
+    100010: Bone.001
+    100012: BRfoot
+    100014: BRfoot_end
+    100016: BRleg
+    100018: chest
+    100020: Cube
+    100022: FLleg
+    100024: FLleg.001
+    100026: FLleg.001_end
+    100028: FRleg
+    100030: FRleg.001
+    100032: FRleg.001_end
+    100034: Lear
+    100036: Lear_end
+    100038: Rear
+    100040: Rear_end
+    100042: snout
+    100044: snout_end
+    100046: tail
+    100048: tailend
+    100050: teet1
+    100052: teet1_end
+    100054: teet2
+    100056: teet2_end
+    100058: teet3
+    100060: teet3_end
+    100062: teet4
+    100064: teet4_end
+    400000: back
+    400002: //RootNode
+    400004: BLfoot
+    400006: BLfoot_end
+    400008: BLleg
+    400010: Bone.001
+    400012: BRfoot
+    400014: BRfoot_end
+    400016: BRleg
+    400018: chest
+    400020: Cube
+    400022: FLleg
+    400024: FLleg.001
+    400026: FLleg.001_end
+    400028: FRleg
+    400030: FRleg.001
+    400032: FRleg.001_end
+    400034: Lear
+    400036: Lear_end
+    400038: Rear
+    400040: Rear_end
+    400042: snout
+    400044: snout_end
+    400046: tail
+    400048: tailend
+    400050: teet1
+    400052: teet1_end
+    400054: teet2
+    400056: teet2_end
+    400058: teet3
+    400060: teet3_end
+    400062: teet4
+    400064: teet4_end
+    2300000: Cube
+    3300000: Cube
+    4300000: Cube
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: bessieSkin
+    second: {fileID: 2100000, guid: 02de1a516df9c441580df5445b15933a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
