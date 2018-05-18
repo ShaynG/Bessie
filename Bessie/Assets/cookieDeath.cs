@@ -61,7 +61,7 @@ public class cookieDeath : MonoBehaviour {
 
 		// Turn the collider into a trigger so shots can pass through it.
 		hitBox.isTrigger = true;
-
+		Score.score += scoreVal;
 		// Tell the animator that the enemy is dead.
 
 	}

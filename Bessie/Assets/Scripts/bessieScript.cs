@@ -11,6 +11,8 @@ public class bessieScript : MonoBehaviour {
 	private Vector3 moveDirection = Vector3.zero;
 	public float gravity = 20.0f;
 	private float jumpSpeed = 10.0f;
+	public GameObject particle;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -43,5 +45,15 @@ public class bessieScript : MonoBehaviour {
 
 
 
+		if (Input.GetButtonDown ("Fire1")) {
+			Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+
+			if (Physics.Raycast (ray))
+				Instantiate (particle, transform.position, transform.rotation);
+
+			Debug.Log (Input.mousePosition.x);
+		} else {
+			//particle.Stop ();
+		}
 	}
 }

@@ -54,6 +54,7 @@
      <Compile Include="Assets\cookieDeath.cs" />
      <Compile Include="Assets\milk.cs" />
      <Compile Include="Assets\particleMilk.cs" />
+     <Compile Include="Assets\Score.cs" />
      <Compile Include="Assets\Scripts\AICharacterControl.cs" />
      <Compile Include="Assets\Scripts\bessieScript.cs" />
      <Compile Include="Assets\Scripts\cookieMonster.cs" />

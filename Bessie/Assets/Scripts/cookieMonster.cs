@@ -50,8 +50,9 @@ public class cookieMonster : MonoBehaviour {
 			//anim.SetBool("isWalking", false);
 			//anim.SetBool("isAttacking",false);
 		}
-		direction.y -= 20.0f * Time.deltaTime;
-		controller.Move (direction * Time.deltaTime);
+
+		direction.y -= 10.0f * Time.deltaTime;
+		controller.Move (direction/8 * Time.deltaTime);
 
 	}
 
@@ -59,7 +60,7 @@ public class cookieMonster : MonoBehaviour {
 
 		//anim.SetBool("isCharging", true);
 		direction.y = 0;
-		direction.y -= 20.0f * Time.deltaTime;
+		//direction.y -= 20.0f * Time.deltaTime;
 		//this.transform.Translate(0,0,0.9f);
 	}
 }
