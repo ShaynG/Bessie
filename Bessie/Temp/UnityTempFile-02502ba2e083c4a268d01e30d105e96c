@@ -155,6 +155,7 @@
 -define:UNITY_TEAM_LICENSE
 'Assets/cookieDeath.cs'
 'Assets/milk.cs'
+'Assets/particleMilk.cs'
 'Assets/Scripts/AICharacterControl.cs'
 'Assets/Scripts/bessieScript.cs'
 'Assets/Scripts/cookieMonster.cs'

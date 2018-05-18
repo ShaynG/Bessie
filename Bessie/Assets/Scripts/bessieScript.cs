@@ -13,7 +13,7 @@ public class bessieScript : MonoBehaviour {
 	private float jumpSpeed = 10.0f;
 	// Use this for initialization
 	void Start () {
-		p = GetComponent<ParticleSystem> ();
+		
 		controller = GetComponent<CharacterController> ();
 	}
 	
@@ -42,6 +42,6 @@ public class bessieScript : MonoBehaviour {
 		}
 
 
-		p.shape.rotation = new Vector3 (Input.mousePosition.x, Input.mousePosition.y, Input.mousePosition.z);
+
 	}
 }
