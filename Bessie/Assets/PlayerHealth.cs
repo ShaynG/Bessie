@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -81,7 +82,7 @@ public class PlayerHealth : MonoBehaviour
 	{
 		// Set the death flag so this function won't be called again.
 		isDead = true;
-
+		SceneManager.LoadScene ("end");
 		// Turn off any remaining shooting effects.
 		//playerShooting.DisableEffects ();
 

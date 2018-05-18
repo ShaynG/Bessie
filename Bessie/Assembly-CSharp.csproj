@@ -54,6 +54,7 @@
      <Compile Include="Assets\cookieDeath.cs" />
      <Compile Include="Assets\EnemyAttack.cs" />
      <Compile Include="Assets\EnemyManager.cs" />
+     <Compile Include="Assets\EnemyMovement.cs" />
      <Compile Include="Assets\milk.cs" />
      <Compile Include="Assets\particleMilk.cs" />
      <Compile Include="Assets\PlayerHealth.cs" />

@@ -356,7 +356,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 571335496}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 184.5, y: 316, z: 0}
+  m_LocalPosition: {x: 361.5, y: 181, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1913834190}
@@ -438,7 +438,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\n\t\t\t\t\tThanks for playing!\n\n\n\n\n\n\n\n\n\nCredits\n\nProgrammer:
-    Will, Shayn, Primo\n\nStory: Ben\n\nArt: Nick\n\nDirector: Artie"
+    Shayn\n\nStory: Shayn\n\nArt: Shayn\n\nMusic: Shayn\n\nDirector: Shayn"
 --- !u!222 &1913834192
 CanvasRenderer:
   m_ObjectHideFlags: 0

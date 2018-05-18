@@ -12,15 +12,19 @@ public class bessieScript : MonoBehaviour {
 	public float gravity = 20.0f;
 	private float jumpSpeed = 10.0f;
 	public GameObject particle;
-
+	PlayerHealth playerHealth;
+	Score score;
 	// Use this for initialization
 	void Start () {
-		
+		score = GetComponent<Score> ();
+		playerHealth = GetComponent<PlayerHealth> ();
 		controller = GetComponent<CharacterController> ();
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		Score.score += 1;
+
 
 		if (controller.isGrounded) {
 			moveDirection = transform.forward * Input.GetAxis ("Vertical") * speed;
@@ -45,15 +49,15 @@ public class bessieScript : MonoBehaviour {
 
 
 
-		if (Input.GetButtonDown ("Fire1")) {
-			Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
-
-			if (Physics.Raycast (ray))
-				Instantiate (particle, transform.position, transform.rotation);
-
-			Debug.Log (Input.mousePosition.x);
-		} else {
-			//particle.Stop ();
-		}
+//		if (Input.GetButtonDown ("Fire1")) {
+//			Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+//
+//			if (Physics.Raycast (ray))
+//				Instantiate (particle, transform.position, transform.rotation);
+//
+//			Debug.Log (Input.mousePosition.x);
+//		} else {
+//			//particle.Stop ();
+//		}
 	}
 }

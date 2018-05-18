@@ -21,7 +21,7 @@ public class EnemyAttack : MonoBehaviour
 		// Setting up the references.
 		player = GameObject.FindGameObjectWithTag ("Player");
 		playerHealth = player.GetComponent<PlayerHealth>();
-		//enemyHealth = GetComponent<currentHealth>();
+		enemyHealth = GetComponent<cookieDeath>();
 		//anim = GetComponent  ();
 	}
 

@@ -12,7 +12,7 @@ public class target : MonoBehaviour {
 
 		if (health <= 0f) {
 
-			Destroy (gameObject);
+			Destroy(gameObject);
 
 		}
 

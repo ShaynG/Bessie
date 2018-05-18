@@ -18,7 +18,7 @@ public class cookieDeath : MonoBehaviour {
 
 	void Awake()
 	{
-		hitParticles = GetComponent <ParticleSystem> ();
+		//hitParticles = GetComponent<ParticleSystem> ();
 		hitBox = GetComponent<CapsuleCollider> ();
 
 		currentHealth = startingHealth;
@@ -40,14 +40,16 @@ public class cookieDeath : MonoBehaviour {
 
 	}
 
-	public void takeDamage ( int damage, Vector3 hitPoint)
+	public void TakeDamage ( int damage, Vector3 hitPoint)
 	{
-		
+		if (isDead)
+			return;
+			
 		currentHealth -= damage;
 
-		hitParticles.transform.position = hitPoint;
-		hitParticles.Play ();
-
+		//hitParticles.transform.position = hitPoint;
+		//hitParticles.Play ();
+		Score.score += 1;
 		if (currentHealth <= 0) {
 			Death ();
 		}
@@ -63,7 +65,7 @@ public class cookieDeath : MonoBehaviour {
 		hitBox.isTrigger = true;
 		Score.score += scoreVal;
 		// Tell the animator that the enemy is dead.
-
+		StartSinking();
 	}
 
 

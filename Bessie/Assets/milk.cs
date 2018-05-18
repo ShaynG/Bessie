@@ -88,7 +88,7 @@ public class milk : MonoBehaviour
 			if(enemyHealth != null)
 			{
 				// ... the enemy should take damage.
-				enemyHealth.takeDamage (damagePerShot, shootHit.point);
+				enemyHealth.TakeDamage (damagePerShot, shootHit.point);
 			}
 
 			// Set the second position of the line renderer to the point the raycast hit.

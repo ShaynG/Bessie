@@ -7,7 +7,7 @@ public class thirdPersonCam : MonoBehaviour {
 	public Transform lookAt;
 	public Transform camTransform;
 
-	private Camera cam;
+	//private Camera cam;
 	private const float Y_MIN = 0.0f;
 	private const float Y_MAX = 50.0f;
 	private float distance = 10.0f;
@@ -19,7 +19,7 @@ public class thirdPersonCam : MonoBehaviour {
 	private void Start()
 	{
 		camTransform = transform;
-		cam = Camera.main;
+		//cam = Camera.main;
 	}
 	private void Update()
 	{

@@ -11,3 +11,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/playtime.unity
     guid: 4387794dbb002434494d3f68842e848e
+  - enabled: 1
+    path: Assets/end.unity
+    guid: 3fe261d9ea6574d7797d889a7f06830d

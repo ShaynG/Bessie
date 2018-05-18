@@ -23,10 +23,8 @@ public class cookieMonster : MonoBehaviour {
 
 
 		direction = player.position - this.transform.position;
-		float angle = Vector3.Angle (direction, this.transform.forward);
-		float distance = Vector3.Distance(transform.position,player.position);
-
-
+		//float angle = Vector3.Angle (direction, this.transform.forward);
+		//float distance = Vector3.Distance(transform.position,player.position);
 
 
 		if(Vector3.Distance(player.position, this.transform.position) < 400  /* && angle < 30 */ ){
