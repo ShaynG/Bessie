@@ -79,7 +79,7 @@ public class cookieDeath : MonoBehaviour {
 		isSinking = true;
 
 		// Increase the score by the enemy's score value.
-		//ScoreManager.score += scoreValue;
+		Score.score += scoreVal;
 
 		// After 2 seconds destory the enemy.
 		Destroy (gameObject, 2f);

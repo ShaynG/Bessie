@@ -22,10 +22,10 @@ MonoBehaviour:
     y: 30
     width: 1440
     height: 731
-  m_MinSize: {x: 913, y: 421}
-  m_MaxSize: {x: 22008, y: 10021}
+  m_MinSize: {x: 911, y: 421}
+  m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 4906
+  controlID: 11599
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +125,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 421}
   m_MaxSize: {x: 4002, y: 8021}
   vertical: 1
-  controlID: 4823
+  controlID: 11512
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -179,13 +179,13 @@ MonoBehaviour:
     height: 200
   m_SceneLighting: 1
   lastFramingTime: 0
-  m_2DMode: 0
+  m_2DMode: 1
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -2.1894531, y: 0.9938965, z: -0.44726562}
+    m_Target: {x: -644.53186, y: 163.76733, z: -9.437013}
     speed: 2
-    m_Value: {x: -2.1894531, y: 0.9938965, z: -0.44726562}
+    m_Value: {x: -644.53186, y: 163.76733, z: -9.437013}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -200,27 +200,27 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 1
-      speed: 2
-      m_Value: 1
-    zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
+    zGrid:
+      m_Target: 1
+      speed: 2
+      m_Value: 1
   m_Rotation:
-    m_Target: {x: 0.047818985, y: 0.6972133, z: -0.046712033, w: 0.7137401}
+    m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0.04781898, y: 0.69721323, z: -0.046712033, w: 0.7137401}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 39.00104
+    m_Target: 1048.9248
     speed: 2
-    m_Value: 39.00104
+    m_Value: 1048.9248
   m_Ortho:
-    m_Target: 0
+    m_Target: 1
     speed: 2
-    m_Value: 0
+    m_Value: 1
   m_ShowGlobalGrid: 1
-  m_LastSceneViewRotation: {x: 0, y: 0, z: 0, w: 0}
+  m_LastSceneViewRotation: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -304,9 +304,9 @@ MonoBehaviour:
     height: 710
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0a290000
-    m_LastClickedID: 10506
-    m_ExpandedIDs: 96fbffff00000000ac290000c0290000
+    m_SelectedIDs: c0290000
+    m_LastClickedID: 10688
+    m_ExpandedIDs: 96fbffff00000000d0280000e0280000062900001e290000ac290000c0290000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -392,18 +392,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 50
   m_LastFolders:
-  - Assets/Scripts
+  - Assets
   m_LastFoldersGridSize: 50
   m_LastProjectPath: /Users/shayng/Documents/GitHub/Bessie/Bessie
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a8270000
-    m_LastClickedID: 10152
+    m_SelectedIDs: 24270000
+    m_LastClickedID: 10020
     m_ExpandedIDs: 00000000242700000228000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -457,9 +457,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 0a290000
-    m_LastClickedInstanceID: 10506
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: c0290000
+    m_LastClickedInstanceID: 10688
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -484,7 +484,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
     m_NewAssetIndexInList: -1
-    m_ScrollPosition: {x: 0, y: 0}
+    m_ScrollPosition: {x: 0, y: 582.5}
     m_GridSize: 50
   m_DirectoriesAreaWidth: 110
 --- !u!114 &11
@@ -505,8 +505,8 @@ MonoBehaviour:
     y: 0
     width: 277
     height: 731
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -538,7 +538,7 @@ MonoBehaviour:
     y: 94
     width: 275
     height: 710
-  m_ScrollPosition: {x: 0, y: 84.95508}
+  m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
     m_CachedPref: -160

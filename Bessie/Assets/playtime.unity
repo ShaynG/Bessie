@@ -748,6 +748,7 @@ GameObject:
   - component: {fileID: 201016845}
   - component: {fileID: 201016852}
   - component: {fileID: 201016847}
+  - component: {fileID: 201016854}
   m_Layer: 0
   m_Name: cookie 1
   m_TagString: Untagged
@@ -899,6 +900,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &201016854
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 201016844}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dddb30342d7a4368a2fc3392e80496f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &240425509
 GameObject:
   m_ObjectHideFlags: 0
@@ -1928,7 +1940,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1272034727
+  randomSeed: 1877339387
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -5362,7 +5374,7 @@ GameObject:
   - component: {fileID: 836574645}
   - component: {fileID: 836574644}
   m_Layer: 5
-  m_Name: hurt
+  m_Name: DamageImage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5398,7 +5410,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0.5514706, g: 0.117593005, b: 0.117593005, a: 0}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -6804,9 +6816,10 @@ GameObject:
   - component: {fileID: 2048909185}
   - component: {fileID: 2048909183}
   - component: {fileID: 2048909182}
+  - component: {fileID: 2048909184}
   m_Layer: 0
   m_Name: Bessie's soul
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6843,6 +6856,24 @@ MonoBehaviour:
   turnSpeed: 60
   gravity: 20
   particle: {fileID: 750539122}
+--- !u!114 &2048909184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2048909181}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fe49332166834d368a8c5639d62d41b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingHealth: 100
+  currentHealth: 0
+  healthSlider: {fileID: 2104491469}
+  damageImage: {fileID: 836574644}
+  deathClip: {fileID: 0}
+  flashSpeed: 5
+  flashColour: {r: 1, g: 0, b: 0, a: 0.1}
 --- !u!135 &2048909185
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6877,6 +6908,50 @@ Transform:
   - {fileID: 1053278965}
   m_Father: {fileID: 0}
   m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2053002230
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2053002232}
+  - component: {fileID: 2053002231}
+  m_Layer: 0
+  m_Name: EnemyManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2053002231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2053002230}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ba3ce3af8a9f4501bae1da8f6614003, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bess: {fileID: 0}
+  enemy: {fileID: 0}
+  spawnTime: 10
+  spawnPoints: []
+--- !u!4 &2053002232
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2053002230}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2095204001
 GameObject:
