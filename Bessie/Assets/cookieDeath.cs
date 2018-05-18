@@ -5,8 +5,8 @@ using UnityEngine.AI;
 
 public class cookieDeath : MonoBehaviour {
 
-	public int startingHealth = 10;
-	public int currentHealth;
+	public int startingHealth = 100;
+	public int currentHealth=100;
 	public float sinkSpeed = 2.5f;
 	public int scoreVal = 10;
 
